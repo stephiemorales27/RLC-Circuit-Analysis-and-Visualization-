@@ -1,5 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.set_theme(style="whitegrid")  # Aplica el estilo de Seaborn a las gráficas de Matplotlib
+
 # RLC Circuit Simulation Platform
 R, L, C = 10, 0.1, 100e-6   # Ohms, Henrios, Faradios
 # Parámetros
